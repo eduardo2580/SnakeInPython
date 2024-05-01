@@ -6,11 +6,11 @@ It defines the main function `snake_game()` to run the game.
 Author: Eduardo Benatti
 """
 
-import sys
+import sys, os
 
-sys.path.append(rf"C:\Users\erics\PycharmProjects\snakeinpython")
+sys.path.append(os.getcwd())
 
-from src import (SH, SW, FONT, screen, clock, pygame)
+from src import *
 import apple_config
 import snake_config
 
